@@ -635,7 +635,7 @@ export async function callUpdate(callUpdate) {
   for (let nk of callUpdate) {
     if (!nk.isGroup && nk.status === 'offer') {
       let callmsg = await this.reply(nk.from, `ciao @${nk.from.split('@')[0]}, c'è anticall.`, false, { mentions: [nk.from] }).catch(console.error)
-      let vcard = `BEGIN:VCARD\nVERSION:5.0\nN:;𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲;;;\nFN:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nORG:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nTITLE:\nitem1.TEL;waid=393773842461:+39 3515533859\nitem1.X-ABLabel:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nEND:VCARD`
+      let vcard = `BEGIN:VCARD\nVERSION:5.0\nN:;THE PUNISHER-BOT;;;\nFN:THE PUNISHER-BOT\nORG:THE PUNISHER-BOT\nTITLE:\nitem1.TEL;waid=393773842461:+39 3515533859\nitem1.X-ABLabel:THE PUNISHER-BOT\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:THE PUNISHER-BOT\nEND:VCARD`
       await this.sendMessage(nk.from, { contacts: { displayName: 'Unlimited', contacts: [{ vcard }] } }, { quoted: callmsg }).catch(console.error)
       await this.updateBlockStatus(nk.from, 'block').catch(console.error)
     }
