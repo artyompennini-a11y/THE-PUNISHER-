@@ -2,7 +2,7 @@
 let handler = async (m, { conn, isROwner }) => {
     const userId = m.sender;
     const groupId = m.chat;
-    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity';
+    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'THE PUNISHER-BOT';
     
     try {
         const chatKeys = Object.keys(global.db.data.chats || {});
