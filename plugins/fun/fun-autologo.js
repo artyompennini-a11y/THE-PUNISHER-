@@ -139,7 +139,7 @@ handler.before = async (m, { conn }) => {
           type: 1
         }
       ],
-      footer: 'ChatUnity Bot'
+      footer: 'THE PUNISHER-BOT'
     }, { quoted: m });
     
     delete global.logoGame[m.chat];
