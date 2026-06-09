@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363259442839354@newsletter',
         serverMessageId: 100,
-        newsletterName: `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 ✦ Sticker`
+        newsletterName: `THE PUNISHER-BOT ✦ Sticker`
     }
   }
 
@@ -46,8 +46,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         }
       }
 
-      let pack = global.packname || '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲'
-      let author = global.author || '𝐁𝐨𝐭'
+      let pack = global.packname || 'THE PUNISHER'
+      let author = global.author || 'BOT'
 
       try {
         stiker = await sticker(img, false, pack, author)
@@ -72,8 +72,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         if (!global.support) {
           global.support = { ffmpeg: true, ffprobe: true, ffmpegWebp: true, convert: true, magick: false, gm: false, find: false }
         }
-        let pack = global.packname || '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲'
-        let author = global.author || '𝐁𝐨𝐭'
+        let pack = global.packname || 'THE PUNISHER'
+        let author = global.author || 'BOT'
         
         stiker = await sticker(false, args[0], pack, author)
       } else {
