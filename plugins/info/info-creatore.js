@@ -1,4 +1,4 @@
-import pkg from '@whiskeysocket/baileys'
+.ueimport pkg from '@whiskeysocket/baileys'
 const { generateWAMessageFromContent } = pkg
 
 let handler = async (m, { conn }) => {
@@ -29,8 +29,8 @@ let handler = async (m, { conn }) => {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "『 📸 』 Instagram",
-                  url: "https://instagram.com/yyktv.vale",
-                  merchant_url: "https://instagram.com/yyktv.vale"
+                  url: "https://www.instagram.com/arty.340?igsh=ZGxranlrczNybHJ0",
+                  merchant_url: "https://www.instagram.com/arty.340?igsh=ZGxranlrczNybHJ0"
                 })
               }
             ]
