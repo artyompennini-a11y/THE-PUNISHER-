@@ -179,7 +179,7 @@ let successfulConnectionLogged = false;
 
 function logSystem(message, color = 'cyanBright') {
   const printer = chalk[color] || chalk.cyanBright;
-  console.log(printer(`〔 ChatUnity 〕 ${message}`));
+  console.log(printer(`〔 THE PUNISHER-BOT 〕 ${message}`));
 }
 
 function normalizePhoneNumberInput(value = '') {
@@ -335,7 +335,7 @@ if (!hasExistingSession) {
 │  🇹🇷  12: Türkçe
 │
 ╰★────★────★────★────★
-               ꒷꒦ ✦ ChatUnity ✦ ꒷꒦
+               ꒷꒦ ✦ THE PUNISHER-BOT ✦ ꒷꒦
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩﹐
 `;
   linguaOption = await askValidatedChoice(
@@ -359,7 +359,7 @@ if (!pairingMode && !hasExistingSession) {
 │  ☁️  Option 2: 8 character Code
 │
 ╰★────★────★────★────★
-               ꒷꒦ ✦ ChatUnity ✦ ꒷꒦
+               ꒷꒦ ✦ THE PUNISHER-BOT ✦ ꒷꒦
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩﹐
 `;
   opzione = await askValidatedChoice(
@@ -565,7 +565,7 @@ async function connectionUpdate(update) {
       global.connectionMessagesPrinted.loggedOut = true;
       process.exit(1);
     } else if (reason === DisconnectReason.connectionReplaced && !global.connectionMessagesPrinted.connectionReplaced) {
-      console.log(chalk.bold.yellowBright(`╭⭑⭒━━━✦ ⚠️ CONNESSIONE SOSTITUITA ✦━━━⭒⭑\n┃ Chiudi le altre sessioni attive.\n╰⭑⭒━━━✦ chatunity-bot ✦━━━⭒⭑`));
+      console.log(chalk.bold.yellowBright(`╭⭑⭒━━━✦ ⚠️ CONNESSIONE SOSTITUITA ✦━━━⭒⭑\n┃ Chiudi le altre sessioni attive.\n╰⭑⭒━━━✦ THE PUNISHER-BOT ✦━━━⭒⭑`));
       global.connectionMessagesPrinted.connectionReplaced = true;
       process.exit(1);
     } else if (reason === DisconnectReason.connectionLost && !global.connectionMessagesPrinted.connectionLost) {
