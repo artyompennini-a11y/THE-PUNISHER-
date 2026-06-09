@@ -9,9 +9,9 @@ import moment from 'moment-timezone';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.author = '𝐌𝐝';
+global.nomebot = 'THE PUNISHER-BOT';
+global.packname = 'THE PUNISHER-BOT';
+global.author = 'THE PUNISHER-BOT';
 global.vs = 'X';
 global.collab = 'Demo';
 global.wm = global.nomebot;
@@ -19,16 +19,16 @@ global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
 
 global.owner = [
-  ['962770035395', 'ThePunisher', true],
+  ['962770035395', 'ThePunisherbot', true],
   ['393206032199', 'Thepunisher', true],
   ['393784409415', 'Elixir', true],
-  ['393501989497', 'Endy', true],
+  ['33625415528', 'Punishervoip', true],
   ['xxxxxxxxxx']
 ];
 
 
-global.mods = ['xxxxxxxxxx'];
-global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx'];
+global.mods = ['33625415528'];
+global.prems = ['33625415528', 'xxxxxxxxxx'];
 
 global.multiplier = 69;
 global.maxwarn = '4';
